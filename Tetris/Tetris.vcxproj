@@ -86,11 +86,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="interface.c" />
+    <ClCompile Include="logic.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data.h" />
     <ClInclude Include="interface.h" />
+    <ClInclude Include="logic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,19 +1,26 @@
-﻿生成启动时间为 2024/9/23 10:17:36。
+﻿生成启动时间为 2024/9/23 15:02:13。
      1>项目“D:\Database\Codes\SDL\Tetris\Tetris\Tetris.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\ProgramFiles\vs2012\VC\bin\CL.exe /c /I"..\SDL2_image-2.0.0\include" /I"..\SDL2_mixer-2.0.0\include" /I"..\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt interface.c
+         D:\ProgramFiles\vs2012\VC\bin\CL.exe /c /I"..\SDL2_image-2.0.0\include" /I"..\SDL2_mixer-2.0.0\include" /I"..\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt interface.c logic.c main.c
+         main.c
+     1>d:\database\codes\sdl\tetris\tetris\main.c(4): warning C4026: 使用形参表声明的函数
+         logic.c
          interface.c
+         正在生成代码...
        Link:
          D:\ProgramFiles\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Database\Codes\SDL\Tetris\Debug\Tetris.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Database\Codes\SDL\Tetris\Debug\Tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Database\Codes\SDL\Tetris\Debug\Tetris.lib" /MACHINE:X86 Debug\interface.obj
+         Debug\logic.obj
          Debug\main.obj
          "..\SDL2-2.0.3\lib\x86\SDL2.lib"
          "..\SDL2-2.0.3\lib\x86\SDL2main.lib"
          "..\SDL2-2.0.3\lib\x86\SDL2test.lib"
          "..\SDL2_image-2.0.0\lib\x86\SDL2_image.lib"
          "..\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.lib"
+         LINK : 没有找到 D:\Database\Codes\SDL\Tetris\Debug\Tetris.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
          Tetris.vcxproj -> D:\Database\Codes\SDL\Tetris\Debug\Tetris.exe
      1>已完成生成项目“D:\Database\Codes\SDL\Tetris\Tetris\Tetris.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.87
+已用时间 00:00:00.47

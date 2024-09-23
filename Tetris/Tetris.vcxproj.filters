@@ -28,12 +28,18 @@
     <ClCompile Include="interface.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="logic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
